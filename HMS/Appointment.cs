@@ -14,6 +14,7 @@ namespace HMS
 
         string PatientName { get; set; }
         string Problem {  get; set; }
+        int BranchTesting { get; set; }
         DateTime now;
 
         public static List<Appointment> appointments = new List<Appointment>();
